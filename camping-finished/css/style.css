@@ -1,0 +1,272 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ 
+/* Start header */
+.header {
+  background-color: #f8e1db;
+  padding: 10px 40px;
+}
+
+body {
+  background-color: #faf4f2;
+}
+
+.clear {
+  clear: both;
+}
+
+.header__navigation {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.header__navigation li {
+  display: inline;
+  margin-right: 30px;
+  
+}
+
+
+
+.header__navigation li:last-child {
+  margin-right: 0;
+}
+
+
+.header__navigation li a {
+  text-decoration: none;
+  color: #3a3835;
+}
+/* End header */
+
+/* --------------------------------------- */
+
+/* Start Carousel */
+.carousel {
+  height: 600px;
+  background: url(../img/BG.png) no-repeat center / cover;
+}
+/* End Carousel */
+
+
+/* Start activities */
+.activities {
+  padding: 50px 0;
+}
+
+.activities__title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.activities__title span{
+  display: block;
+  color: #8d8d8d;
+  font-size: 30px;
+}
+
+
+.activities__item {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+.activities__inner {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.activities__img {
+  position: relative;
+}
+
+.activities__img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activities__inner h4 {
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+.activities__inner p {
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 20px;
+
+  line-height: 1.5;
+
+}
+
+.activities__inner button {
+  width: 70%;
+  height: 50px;
+  border-radius:  30px;
+  background-color: #e8e8e8;
+  color: #939393;
+  border: none;
+}
+
+.activities__icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.activities__icon i {
+  line-height: 30px;
+  color: #e76f51;
+  
+}
+
+.activities__button {
+  margin-top: 40px;
+}
+
+.activities__button button {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #e76f51;
+  background-color: rgb(255, 255, 255, 0);
+  color: #e76f51;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 22.5px;
+  cursor: pointer;
+}
+.activities__button button:hover {
+  background: #e76f51;
+  color: white;
+}
+/* End Activities ------------------------------------*/
+
+/* Start Contact -------------------------------------*/
+.contact {
+  background-color: #f8e1db;
+}
+
+.contact__left, .contact__right {
+  width: 50%;
+  float: left;
+}
+
+.contact__left {
+  background: url(../img/mask.png) no-repeat center / cover;
+}
+
+.contact__right {
+  color: #8d8d8d;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+
+.contact__right h3 {
+  font-size: 27px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.contact__right p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.contact__app h4 {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.contact__social h4 {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.contact__icon i{
+  color: #e76f51;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+
+
+.contact__app, .contact__social {
+  width: 50%;
+  float: left;
+}
+/* End Contact ---------------------------------------*/
+
+
+/* Start Footer ------------------------------------- */
+.footer {
+  background-color: #f8e1db;
+  margin-top: 100px;
+  border-radius: 60px 60px 0 0;
+}
+
+.footer__left {
+  width: 35%;
+}
+
+.footer__left h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.footer__left p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.footer__right {
+  width: 65%;
+}
+
+.footer__left, .footer__right {
+  float: left;
+  margin-top:  50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.footer__col {
+  width: 33%;
+  float: left;
+}
+
+.footer__col h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.footer__col ul {
+  list-style: none;
+}
+
+.footer__col li {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.footer__copyright {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+/* End Footer */
